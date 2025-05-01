@@ -31,7 +31,12 @@
   --font-IRANSansXLight: "IRANSansX Light";
 
   --color-Primary: #fa541c;
+  --color-Primary300: #fc9877;
+
   --color-Secondary: #032340;
+  --color-Secondary0: #ebf5ff;
+  --color-Secondary400: #194165;
+
   --color-PrimaryBack: #feeee8;
   --color-SecondaryBack: #ebf5ff;
 
@@ -61,4 +66,9 @@
   --color-BlackOlive: #404040;
 
   --shadow-LoginBox: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --shadow-BtnBox: rgba(3, 35, 64, 0.3) 0px 7px 29px 0px;
+  --shadow-BtnBoxSecondary: rgba(250, 84, 28, 0.3) 0px 7px 29px 0px;
+
+  --breakpoint-xs: 360px;
+  --breakpoint-xxs: 460px;
 }
