@@ -1,1 +1,64 @@
 @import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: "IRANSansX Medium";
+    src: url("/public/font/IRANSansXFaNum-Medium.woff2") format(woff2);
+  }
+  @font-face {
+    font-family: "IRANSansX Bold";
+    src: url("/public/font/IRANSansXFaNum-Bold.woff2") format(woff2);
+  }
+  @font-face {
+    font-family: "IRANSansX DemiBold";
+    src: url("/public/font/IRANSansXFaNum-DemiBold.woff2") format(woff2);
+  }
+  @font-face {
+    font-family: "IRANSansX Regular";
+    src: url("/public/font/IRANSansXFaNum-Regular.woff2") format(woff2);
+  }
+  @font-face {
+    font-family: "IRANSansX Light";
+    src: url("/public/font/IRANSansXFaNum-Light.woff2") format(woff2);
+  }
+}
+
+@theme {
+  --font-IRANSansXMedium: "IRANSansX Medium";
+  --font-IRANSansXBold: "IRANSansX Bold";
+  --font-IRANSansXDemiBold: "IRANSansX DemiBold";
+  --font-IRANSansXRegular: "IRANSansX Regular";
+  --font-IRANSansXLight: "IRANSansX Light";
+
+  --color-Primary: #fa541c;
+  --color-Secondary: #032340;
+  --color-PrimaryBack: #feeee8;
+  --color-SecondaryBack: #ebf5ff;
+
+  --color-Success800: #257028;
+  --color-Success500: #66bb6a;
+  --color-Success200: #d3eddd;
+
+  --color-Warning800: #995700;
+  --color-Warning500: #ffb300;
+  --color-Warning200: #fff3bf;
+
+  --color-Info800: #0f5894;
+  --color-Info500: #29b6f6;
+  --color-Info200: #c7f2fc;
+
+  --color-Error800: #8a1513;
+  --color-Error500: #e53935;
+  --color-Error200: #faddca;
+
+  --color-GhostWhite: #f9f9f9;
+  --color-BrightGray: #ededed;
+  --color-LightSilver: #d9d9d9;
+  --color-ChineseSilver: #cbcbcb;
+  --color-SilverChalice: #adadad;
+  --color-OldSilver: #868686;
+  --color-GraniteGray: #606060;
+  --color-BlackOlive: #404040;
+
+  --shadow-LoginBox: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
